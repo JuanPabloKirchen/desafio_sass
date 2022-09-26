@@ -1,0 +1,11 @@
+footer{
+    grid-area: footer;
+    background-color: $headerFooterBck;
+    border-top: solid white 2px;
+    h4{
+        margin: 2rem;
+        color: $footColor;
+        position: relative;
+        float: right;
+    }
+}

@@ -1,0 +1,18 @@
+Header{
+    background-color: $headerFooterBck;
+    border-bottom: solid white 2px;
+    font-size: 20px;
+    grid-area: header;
+    vertical-align: center;
+    img{
+        margin: 1rem;
+        width: 64px;
+        float: left;
+        position: relative;
+    }
+    h1{
+        color: $fontColor;
+        display: inline;
+        position: relative;
+    }
+}

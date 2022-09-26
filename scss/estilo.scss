@@ -1,0 +1,25 @@
+$headerFooterBck: #131335;
+$mainBck: #0f0f58;
+$fontColor: #ffffff;
+$footColor: #00ffff;
+$unhoveredColor: #a9a9a9;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .indexContenedor{
+    display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.3fr 1fr 0.3fr;
+      grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    @import "header";
+
+    @import "main";
+
+    @import "footer";
+}

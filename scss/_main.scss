@@ -1,0 +1,16 @@
+main{
+    grid-area: main;
+    background-color: $mainBck;
+    h2{
+        color: $fontColor;
+        margin: 2rem;
+    }
+    p{
+        margin: 2rem;
+        color: $unhoveredColor;
+        &:hover{
+            color: $fontColor;
+            font-style: italic;
+        }
+    };
+}
